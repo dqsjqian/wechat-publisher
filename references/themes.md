@@ -39,7 +39,7 @@
 | toutiao_default | 头条风 |
 | zhihu_default | 知乎风 |
 
-## 代码高亮主题（scripts/themes/highlight/*.css）
+## 代码高亮主题（scripts/highlight-themes/*.css）
 
 ### 亮色主题
 - `atom-one-light` - Atom 编辑器亮色

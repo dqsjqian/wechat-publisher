@@ -42,7 +42,7 @@ scripts/
 ├── setup.sh             # 凭证加载
 └── themes/
     ├── *.css            # 12 个排版主题
-    └── highlight/*.css  # 9 个代码高亮主题
+    └── highlight-themes/    # 9 个代码高亮主题
 ```
 
 渲染管线：Markdown 解析 → `<section id="article">` 包裹 → 主题 CSS
@@ -118,7 +118,7 @@ python3 scripts/publish_article.py article.md \
 medium_default / orangeheart / phycat / pie / purple / rainbow /
 toutiao_default / zhihu_default
 
-**高亮**（`scripts/themes/highlight/`）：atom-one-dark / atom-one-light /
+**高亮**（`scripts/highlight-themes/`）：atom-one-dark / atom-one-light /
 dracula / github-dark / github / monokai / solarized-dark /
 solarized-light / xcode
 

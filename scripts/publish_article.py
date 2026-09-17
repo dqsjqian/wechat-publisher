@@ -286,11 +286,12 @@ def load_theme_css(theme_id, themes_dir):
 
 
 def load_highlight_css(hl_id, themes_dir):
-    path = os.path.join(themes_dir, "highlight", f"{hl_id}.css")
+    hl_dir = os.path.join(os.path.dirname(themes_dir), "highlight-themes")
+    path = os.path.join(hl_dir, f"{hl_id}.css")
     if not os.path.exists(path):
         available = sorted(
             f[:-4]
-            for f in os.listdir(os.path.join(themes_dir, "highlight"))
+            for f in os.listdir(hl_dir)
             if f.endswith(".css")
         )
         raise SystemExit(

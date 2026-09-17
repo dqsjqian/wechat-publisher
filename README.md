@@ -225,9 +225,9 @@ wechat-publisher/
 │   ├── wechat-image-post.py       # 图片贴图发布（需 requests）
 │   ├── wechat-image-post.sh       # 上者的 shell 包装
 │   ├── svg2wechat.py              # SVG → 微信内联片段转换器
-│   └── themes/
+│   ├── themes/
 │       ├── *.css                  # 12 个排版主题
-│       ├── highlight/*.css        # 9 个代码高亮主题
+│       ├── highlight-themes/*.css   # 9 个代码高亮主题
 │       └── LICENSE                # 样式资产来源说明
 └── references/
     ├── themes.md                  # 主题列表和使用说明
