@@ -1,0 +1,178 @@
+/*
+ *     Typora Theme - Orange Heart    /    Author - evgo2017
+ *     https://github.com/evgo2017/typora-theme-orange-heart
+ */
+
+#article {
+    line-height: 1.75;
+    font-size: 16px;
+}
+#article p {
+    margin: 1em 0;
+}
+#article h1,
+#article h2,
+#article h3,
+#article h4,
+#article h5,
+#article h6 {
+    margin: 1.2em 0 1em;
+    padding: 0px;
+    font-weight: bold;
+}
+#article h1 {
+    font-size: 1.5em;
+}
+#article h2 {
+    font-size: 1.3em;
+    border-bottom: 2px solid rgb(239, 112, 96);
+    display: flex;
+}
+#article h2 span {
+    display: inline-block;
+    font-weight: bold;
+    background: rgb(239, 112, 96);
+    color: #ffffff;
+    padding: 3px 10px 1px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-right: 3px;
+}
+#article h2::after {
+    content: "";
+    border-bottom: 36px solid #efebe9;
+    border-right: 20px solid transparent;
+    align-self: flex-end;
+    height: 0;
+}
+#article h3 {
+    font-size: 1.3em;
+}
+#article h4 {
+    font-size: 1.2em;
+}
+#article h5 {
+    font-size: 1.1em;
+}
+#article h6 {
+    font-size: 1em;
+}
+#article > ul,
+#article > ol {
+    padding-left: 1rem;
+}
+#article ul,
+#article ol {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+#article ul {
+    list-style-type: disc;
+}
+#article ul ul {
+    list-style-type: circle;
+}
+#article ol {
+    list-style-type: decimal;
+}
+#article blockquote {
+    margin: 0;
+    display: block;
+    font-size: 0.9em;
+    overflow: auto;
+    border-left: 3px solid rgb(239, 112, 96);
+    color: #6a737d;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #fff9f9;
+}
+#article a {
+    text-decoration: none;
+    word-wrap: break-word;
+    font-weight: bold;
+    color: rgb(239, 112, 96);
+    border-bottom: 1px solid rgb(239, 112, 96);
+}
+#article p code,
+#article li code {
+    font-size: 0.9em;
+    word-wrap: break-word;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin: 0 2px;
+    color: rgb(239, 112, 96);
+    background-color: rgba(27, 31, 35, 0.05);
+    word-break: break-all;
+}
+#article img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+#article span img {
+    max-width: 100%;
+    display: inline-block;
+    border-right: 0px;
+    border-left: 0px;
+}
+#article table {
+    border-collapse: collapse;
+    margin: 1.4em auto;
+    max-width: 100%;
+    table-layout: fixed;
+    text-align: left;
+    overflow: auto;
+    display: table;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+#article table td,
+#article table th {
+    font-size: 0.75em;
+    padding: 9px 12px;
+    line-height: 22px;
+    border: 1px solid rgb(239, 112, 96);
+    vertical-align: top;
+}
+#article table th {
+    font-weight: bold;
+    background-color: #fff9f9;
+    color: rgb(239, 112, 96);
+}
+#article span code,
+#article li code {
+    color: rgb(239, 112, 96);
+}
+#article pre {
+    border-radius: 5px;
+    line-height: 2;
+    margin: 1em 0.5em;
+    padding: .5em;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 1px 5px;
+    font-size: 12px;
+}
+#article pre code {
+    display: block;
+    margin: .5em;
+    padding: 0;
+}
+#article .footnote {
+    color: rgb(239, 112, 96);
+}
+#article #footnotes p {
+    display: flex;
+    margin: 0;
+    font-size: 0.9em;
+}
+#article .footnote-num {
+    display: inline;
+    width: 10%;
+}
+#article .footnote-txt {
+    display: inline;
+    width: 90%;
+    word-wrap: break-word;
+    word-break: break-all;
+}

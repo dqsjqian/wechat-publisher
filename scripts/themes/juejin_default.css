@@ -1,0 +1,143 @@
+#article {
+    line-height: 1.75;
+    font-size: 16px;
+}
+#article * {
+    box-sizing: border-box;
+}
+#article h1,
+#article h2,
+#article h3,
+#article h4,
+#article h5,
+#article h6,
+#article p {
+    margin: 1em 0;
+}
+#article h1,
+#article h2,
+#article h3,
+#article h4,
+#article h5,
+#article h6 {
+    line-height: 1.5;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+#article h1 {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 5px;
+}
+#article h2 {
+    font-size: 22px;
+    line-height: 34px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ececec;
+}
+#article h3 {
+    font-size: 20px;
+    line-height: 28px;
+}
+#article > ul,
+#article > ol {
+    padding-left: 1rem;
+}
+#article ul,
+#article ol {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+#article ul {
+    list-style-type: disc;
+}
+#article ul ul {
+    list-style-type: circle;
+}
+#article ol {
+    list-style-type: decimal;
+}
+#article img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+#article table {
+    display: inline-block !important;
+    font-size: 12px;
+    width: auto;
+    max-width: 100%;
+    overflow: auto;
+    border: 1px solid #f6f6f6;
+}
+#article thead {
+    background: #f6f6f6;
+    color: #000;
+    text-align: left;
+}
+#article table td,
+#article table th {
+    padding: 12px 7px;
+    line-height: 24px;
+}
+#article blockquote {
+    color: #666;
+    padding: 1px 23px;
+    margin: 22px 0;
+    border-left: 4px solid #cbcbcb;
+    background-color: #f8f8f8;
+    font-size: 0.95em;
+}
+#article p code {
+    background: #fff5f5;
+    color: #ff502c;
+    padding: 4px 6px;
+    font-size: 0.78em;
+}
+#article pre {
+    line-height: 2;
+    margin: 1em 0.5em;
+    padding: .5em;
+    color: #333;
+    background: #f8f8f8;
+    font-size: 12px;
+}
+#article pre code {
+    display: block;
+    overflow-x: auto;
+    margin: .5em;
+    padding: 0;
+    background: #f8f8f8;
+}
+#article hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+/* 链接 */
+#article a {
+    word-wrap: break-word;
+    color: #0069c2;
+}
+/* 脚注 */
+#article .footnote {
+    color: #0069c2;
+}
+#article #footnotes p {
+    display: flex;
+    margin: 0;
+    font-size: 0.9em;
+}
+#article .footnote-num {
+    display: inline;
+    width: 10%;
+}
+#article .footnote-txt {
+    display: inline;
+    width: 90%;
+    word-wrap: break-word;
+    word-break: break-all;
+}

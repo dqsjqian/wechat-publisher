@@ -1,0 +1,196 @@
+/*
+ *     Typora Theme - Maize    /    Author - BEATREE
+ *     https://github.com/BEATREE/typora-maize-theme
+ */
+
+:root {
+    --bg-color: #fafafa;
+    --primary-color: #428bca;
+}
+#article {
+    line-height: 1.75;
+    font-size: 16px;
+}
+#article p {
+    margin: 1em 0;
+}
+#article h1,
+#article h2,
+#article h3,
+#article h4,
+#article h5,
+#article h6 {
+    margin: 1.2em 0 1em;
+    padding: 0px;
+    font-weight: bold;
+}
+#article h1 {
+    font-size: 1.5em;
+}
+#article h2::before {
+    content: "";
+    width: 20px;
+    height: 30px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIj4KICAgIDxnPgogICAgICAgIDxwYXRoIGQ9Im0zMy40NTIgNjIuMTQyUzY2LjA2MyAxNC45MzcgOTAuNDU2IDEwLjI4M2wxLjQyOSAxLjcxNFM3Mi41MzIgMjkuNTgyIDU4LjEzMyA0OC41ODNDNDMuMDg0IDY4LjQ0MiAzNi4wNTggODkuOTQ3IDMxLjg4IDg5LjcxNWMtNS42ODEtLjQxLTEyLjQyOS0zNy43MTYtMjMuMjg3LTMzLjI4Ny0yLjI4Ni0uNTcxIDMuOTEyLTkuNjE0IDEyLjU3Mi03LjU3MiA1LjQzIDEuMjgxIDEyLjI4NyAxMy4yODYgMTIuMjg3IDEzLjI4NnoiIGZpbGw9IiNmZmIxMWIiIC8+CiAgICA8L2c+Cjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin-right: 4px;
+    background-position-y: 10px;
+}
+#article h2 {
+    font-size: 1.3em;
+    display: flex;
+    align-items: top;
+}
+#article h2 span {
+    font-weight: bold;
+    padding: 3px 10px 1px;
+}
+#article h3 {
+    font-size: 1.3em;
+}
+#article h4 {
+    font-size: 1.2em;
+}
+#article h5 {
+    font-size: 1.2em;
+}
+#article h6 {
+    font-size: 1.2em;
+}
+#article > ul,
+#article > ol {
+    padding-left: 1rem;
+}
+#article ul,
+#article ol {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+#article ul {
+    list-style-type: disc;
+}
+#article ul ul {
+    list-style-type: circle;
+}
+#article ol {
+    list-style-type: decimal;
+}
+#article strong {
+    color: #e49123;
+    font-weight: bold;
+}
+#article blockquote {
+    margin: 0;
+    padding: 10px 10px 10px 20px;
+    font-size: 0.9em;
+    background: #fff9f9;
+    border-left: 3px solid #ffb11b;
+    color: #6a737d;
+    overflow: auto;
+}
+#article a {
+    word-wrap: break-word;
+    text-decoration: none;
+    font-weight: bold;
+    color: #e49123;
+    border-bottom: 1px solid #e49123;
+}
+#article hr {
+    height: 1px;
+    padding: 0;
+    border: none;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        rgba(231, 93, 109, 0.3),
+        rgba(255, 159, 150, 0.75),
+        rgba(255, 216, 181, 0.3)
+    );
+}
+#article p code,
+#article span code,
+#article li code {
+    word-wrap: break-word;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin: 0 2px;
+    word-break: break-all;
+    color: rgb(235, 76, 55);
+    background-color: #f0f0f0;
+    font-size: 0.8em;
+}
+#article img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px #84a1a8;
+    border: 0px;
+}
+#article table {
+    border-collapse: collapse;
+    margin: 1.4em auto;
+    max-width: 100%;
+    table-layout: fixed;
+    text-align: left;
+    overflow: auto;
+    display: table;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+#article table td,
+#article table th {
+    font-size: 0.75em;
+    padding: 9px 12px;
+    line-height: 22px;
+    border: 1px solid rgb(255, 216, 181);
+    vertical-align: top;
+}
+#article table th {
+    font-weight: bold;
+    color: #ffb11b;
+    background: #fff9f9;
+}
+#article table td {
+    color: #222;
+}
+#article table tr:nth-child(even) {
+    background: #fff9f9;
+}
+#article table tr:nth-child(odd) {
+    background-color: #fff;
+}
+#article pre {
+    border-radius: 5px;
+    line-height: 2;
+    margin: 1em 0.5em;
+    padding: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 1px 5px;
+    font-size: 12px;
+}
+#article pre code {
+    display: block;
+    overflow-x: auto;
+    margin: 0.5em;
+    padding: 0;
+}
+#article .footnote {
+    font-weight: bold;
+    color: #e49123;
+}
+#article #footnotes p {
+    display: flex;
+    margin: 0;
+    font-size: 0.9em;
+}
+#article .footnote-num {
+    display: inline;
+    width: 10%;
+}
+#article .footnote-txt {
+    display: inline;
+    width: 90%;
+    word-wrap: break-word;
+    word-break: break-all;
+}

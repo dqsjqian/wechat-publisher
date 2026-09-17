@@ -1,0 +1,10 @@
+# Styling Assets Notice
+
+CSS files in this directory are theme assets for WeChat Official Account
+article rendering. Where a file header carries an author attribution,
+that attribution belongs to the original theme author and is retained
+intentionally.
+
+The `#article` selector prefix, the CSS inlining engine, the Markdown
+renderer and all publishing scripts in this repository are original work
+of the wechat-publisher project (MIT, see repository root LICENSE).
